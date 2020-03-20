@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Ras Default Coding Standard">
+    <config name="installed_paths" value="vendor/ras/sniffs/src" />
+
+    <file>./src/</file>
+    <file>./cron/</file>
+    <file>./pages/</file>
+    <file>./public/</file>
+    <file>./tests</file>
+    <file>./test</file>
+
+    <rule ref="Ras" />
+
+</ruleset>

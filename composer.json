@@ -1,0 +1,25 @@
+{
+    "name": "ras/sniffs",
+    "description": "Rapid Agile Softwares default code styles to be used with Squizlabs' code sniffer.",
+    "license": "proprietary",
+    "require": {
+        "symplify/easy-coding-standard": "^2.2.0"
+    },
+    "require-dev": {	
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ras\\Sniffs\\": "src/Ras/Sniffs/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "scripts": {
+        "test": "phpunit -c phpunit.xml"
+    }
+}
