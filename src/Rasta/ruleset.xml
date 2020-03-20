@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Ras">
-    <description>Ras Coding Standards</description>
+<ruleset name="Rasta">
+    <description>Rasta Coding Standards</description>
 
     <!--The complete PSR-2 ruleset-->
     <rule ref="PSR2">

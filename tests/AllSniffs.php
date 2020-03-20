@@ -1,5 +1,5 @@
 <?php
-namespace Ras\CS\Tests;
+namespace Rasta\CS\Tests;
 
 use PHP_CodeSniffer\Autoload;
 use PHP_CodeSniffer\Config;

@@ -1,5 +1,5 @@
 <?php
-namespace Ras\Tests\ControlStructures;
+namespace Rasta\Tests\ControlStructures;
 
 use PHP_CodeSniffer\Tests\Standards\AbstractSniffUnitTest;
 

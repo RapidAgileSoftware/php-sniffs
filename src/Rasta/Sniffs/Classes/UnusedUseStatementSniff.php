@@ -1,5 +1,5 @@
 <?php
-namespace Ras\Sniffs\Classes;
+namespace Rasta\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

@@ -1,5 +1,5 @@
 <?php
-namespace Ras\Sniffs\Formatting;
+namespace Rasta\Sniffs\Formatting;
 
 /**
  *

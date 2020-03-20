@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Ras Default Coding Standard">
-    <config name="installed_paths" value="vendor/ras/sniffs/src" />
+<ruleset name="Rasta Default Coding Standard">
+    <config name="installed_paths" value="vendor/rasta/sniffs/src" />
 
     <file>./src/</file>
     <file>./cron/</file>
@@ -9,6 +9,6 @@
     <file>./tests</file>
     <file>./test</file>
 
-    <rule ref="Ras" />
+    <rule ref="Rasta" />
 
 </ruleset>

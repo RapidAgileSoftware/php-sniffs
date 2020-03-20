@@ -1,9 +1,9 @@
 <?php
-namespace Ras\Tests\Formatting;
+namespace Rasta\Tests\Formatting;
 
 use PHP_CodeSniffer\Tests\Standards\AbstractSniffUnitTest;
 
-class UseInAlphabeticalOrderUnitTest extends AbstractSniffUnitTest
+class BlankLineBeforeReturnUnitTest extends AbstractSniffUnitTest
 {
 
     /**
@@ -14,22 +14,12 @@ class UseInAlphabeticalOrderUnitTest extends AbstractSniffUnitTest
      *
      * @return array<int, int>
      */
-    protected function getErrorList($testFile = '')
+    protected function getErrorList()
     {
-        switch ($testFile) {
-            case 'UseInAlphabeticalOrderUnitTest.1.inc':
-                return [
-                    2 => 7
-                ];
-                break;
-            case 'UseInAlphabeticalOrderUnitTest.2.inc':
-                return [
-                    3 => 1
-                ];
-                break;
-            default:
-                return [];
-        }
+        return [
+            10 => 1,
+            44 => 1
+        ];
     }
 
     /**

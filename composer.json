@@ -1,5 +1,5 @@
 {
-    "name": "ras/sniffs",
+    "name": "rasta/sniffs",
     "description": "Rapid Agile Softwares default code styles to be used with Squizlabs' code sniffer.",
     "license": "proprietary",
     "require": {
@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ras\\Sniffs\\": "src/Ras/Sniffs/"
+            "Rasta\\Sniffs\\": "src/Rasta/Sniffs/"
         }
     },
     "config": {

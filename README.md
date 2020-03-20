@@ -8,11 +8,11 @@ Rapid Agile Software default code styles to be used with Squizlabs' codesniffer 
 1) Create a file `easy-coding-standard.neon` in the root path of project with at least below contents:
 ```yml
 includes:
-  - vendor/ras/sniffs/easy-coding-standard.neon
+  - vendor/rasta/sniffs/easy-coding-standard.neon
 
 ```
 
-2) Run `composer require-dev ras/sniffs`
+2) Run `composer require-dev rasta/sniffs`
 
 43 Add a linting command to `composer.json`
 

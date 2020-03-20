@@ -1,5 +1,5 @@
 <?php
-namespace Ras\Sniffs\Formatting;
+namespace Rasta\Sniffs\Formatting;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
@@ -7,7 +7,7 @@ use PHP_CodeSniffer\Sniffs\Sniff;
 /**
  * Class BlankLineBeforeReturnSniff
  *
- * @package Ras\Sniffs\Formatting
+ * @package Rasta\Sniffs\Formatting
  *
  * @link https://github.com/widop/CodeSniffer [Original version]
  */
